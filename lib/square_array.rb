@@ -3,7 +3,7 @@ def square_array(array)
   arr = []
   while num < array.count do
     prod = array[num] ** 2
-    arr.unshift(prod)
+    arr.push(prod)
     num += 1
     if num == array.count 
       return arr
